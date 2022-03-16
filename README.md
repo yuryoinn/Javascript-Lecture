@@ -1,2 +1,3 @@
-# Javascript 과제 올리는 레퍼지토리 입니다.
+# Javascript Lecture
+자바스크립트 강의 과제 전용 레퍼지토리입니다.
  
