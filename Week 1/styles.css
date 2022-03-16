@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 3000px;
+    background-color: #195190;
+    color: #A2A2A1;
+}
+
+h1, p {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 15px;
+}
+
+.box-pos {
+    padding-top: 20px;
+}
+
+.box-pos-2 {
+    padding-bottom: 45px;
+    margin-top: 3000px;
+}
+
+#scrollTop {
+    width: 50px;
+    height: 50px;
+    background-color: #A2A2A1;
+    /* border: solid 1px #195190; */
+    border-radius: 50%;
+    background-image: url(./assets/arrow-up.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 30px;
+    bottom: 70px;
+    cursor: pointer;
+}
+
+#scrollDown {
+    width: 50px;
+    height: 50px;
+    background-color: #A2A2A1;
+    /* border: solid 1px #195190; */
+    border-radius: 50%;
+    background-image: url(./assets/arrow-down.png);
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+    right: 100px;
+    bottom: 70px;
+    cursor: pointer;
+}
+
+#scrollTop:hover {
+    background-color: #C7D3D4;
+}
+
+#scrollDown:hover {
+    background-color: #C7D3D4;
+}

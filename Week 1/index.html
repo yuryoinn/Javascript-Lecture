@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>scrollTop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./jquery-3.6.0.js"></script>
+</head>
+<body>
+    <div class="box-pos">
+        <h1>Page Scroll</h1>
+        <p>Top</p>
+    </div>
+    <aside id="scrollTop"></aside>
+    <script>
+        $("#scrollTop").click(function(){
+            console.log("click");
+            $("html, body").animate({scrollTop: 0}, 1000 );
+        } );
+    </script>
+    <aside id="scrollDown"></aside>
+    <script>
+        $("#scrollDown").click(function(){
+            console.log("click");
+            $("html, body").animate({scrollTop: 3000}, 1000 );
+        } );
+    </script>
+    <div class="box-pos-2">
+        <h1>Page Scroll</h1>
+        <p>Bottom</p>
+    </div>
+    
+</body>
+</html>
